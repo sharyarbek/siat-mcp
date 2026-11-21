@@ -1,6 +1,7 @@
 # SIAT MCP: архитектура проекта (v1)
 
 Статус: **черновик на утверждение** · 2026-11-19
+Связанные документы: `RESEARCH.md` (разведка сайта и API).
 
 ---
 
@@ -279,7 +280,7 @@ https://siat.stat.uz/reports-filed/{id}/{view}
 task3/
 ├─ pyproject.toml / uv.lock   ← все зависимости только в локальном .venv (uv), ничего глобально
 ├─ README.md            ← как запустить
-├─ ARCHITECTURE.md
+├─ RESEARCH.md · ARCHITECTURE.md
 ├─ src/siat/
 │  ├─ api_client.py     ← [1] HTTP + лимиты + повторы
 │  ├─ crawl.py          ← [1] обход, состояние, докачка
